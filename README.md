@@ -13,7 +13,12 @@ You can activate this env in your cli by navigating to the .venv folder and runn
 - For windows, you would run ```. .venv/bin/Scripts/activate```
 
 # data download
+
 ```dl_data.sh``` has been provided if you'd like to programmatically download the zip file. Run the .sh file using ```. dl_data.sh```
+
+# data_extraction.ipynb
+
+This notebook just walks through extracting the data quickly, and some code blocks to visualize details about the dataset
 
 # Pyinstaller
 
