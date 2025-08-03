@@ -2,6 +2,12 @@
 
 This project takes npi data file found on the [cms gov](https://download.cms.gov/nppes/NPI_Files.html) site [(direct download link)](https://download.cms.gov/nppes/NPPES_Data_Dissemination_July_2025_V2.zip) and utilizes polars lazy load to optimally filter and generate a new csv based on a state filter. This new file should be much smaller, and can be loaded into excel
 
+# Local clone
+
+If you'd like to play with this code, go to your CLI, navigate to where you'd like this folder to live, and run 
+
+```git clone https://github.com/Hichem-E/npi_data_extractor```
+
 # python package manager - UV
 
 This project is managed using uv. If you do not have uv, please go to [uv installation page](https://docs.astral.sh/uv/getting-started/installation/) and install uv based on your OS
