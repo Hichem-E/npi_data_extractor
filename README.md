@@ -1,6 +1,6 @@
-# Mi filter for nppes data
+# MI filter for nppes data
 
-This project simply takes npidata pfile found on the [cms gov](https://download.cms.gov/nppes/NPI_Files.html) site. - [direct download link](https://download.cms.gov/nppes/NPPES_Data_Dissemination_July_2025_V2.zip):, and utilizes polars lazy load to optimally filter and generate file based on a state filter
+This project takes npi data file found on the [cms gov](https://download.cms.gov/nppes/NPI_Files.html) site [(direct download link)](https://download.cms.gov/nppes/NPPES_Data_Dissemination_July_2025_V2.zip) and utilizes polars lazy load to optimally filter and generate a new csv based on a state filter. This new file should be much smaller, and can be loaded into excel
 
 # python package manager - UV
 
@@ -18,7 +18,7 @@ You can activate this env in your cli by navigating to the .venv folder and runn
 
 # data_extraction.ipynb
 
-This notebook just walks through extracting the data quickly, and some code blocks to visualize details about the dataset
+This notebook walks through the data extraction method in a secton format and has code to visualize details regarding the dataset
 
 # app.py
 
@@ -26,6 +26,6 @@ This file houses the tkinter code to create the gui for non-technical users. It'
 
 # Pyinstaller
 
-Pyinstaller is being used to generate a standalone .exe. Just as a reminder, pyinstaller only generate the file based the current running OS, and can not generate cross builds to run on other OS's.
+Pyinstaller is being used to generate a standalone .exe. FYI, pyinstaller can only generate an executable that works with the current OS, and can not generate cross build to run on other OS's.
 
 To generate the standalone app, run ```pyinstaller --onefile --windowed app.py```
