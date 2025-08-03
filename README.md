@@ -20,6 +20,10 @@ You can activate this env in your cli by navigating to the .venv folder and runn
 
 This notebook just walks through extracting the data quickly, and some code blocks to visualize details about the dataset
 
+# app.py
+
+This file houses the tkinter code to create the gui for non-technical users. It's a very simple program loop that presents all the .csv files found in its working directory, and lets you select the right file and run extraction, generating a new csv with a Michigan filter
+
 # Pyinstaller
 
 Pyinstaller is being used to generate a standalone .exe. Just as a reminder, pyinstaller only generate the file based the current running OS, and can not generate cross builds to run on other OS's.
