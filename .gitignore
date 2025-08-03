@@ -12,5 +12,6 @@ dist/*
 # Virtual environments
 .venv
 
-# no csvs
-**/*.csv
+# no data
+*.csv
+*.zip

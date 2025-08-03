@@ -2,7 +2,7 @@
 
 This project simply takes npidata pfile found on the [cms gov](https://download.cms.gov/nppes/NPI_Files.html) site. - [direct download link](https://download.cms.gov/nppes/NPPES_Data_Dissemination_July_2025_V2.zip):, and utilizes polars lazy load to optimally filter and generate file based on a state filter
 
-# UV
+# python package manager - UV
 
 This project is managed using uv. If you do not have uv, please go to [uv installation page](https://docs.astral.sh/uv/getting-started/installation/) and install uv based on your OS
 
@@ -11,6 +11,9 @@ Once complete, navigate to this folder in your cli and run ```uv sync``` to gene
 You can activate this env in your cli by navigating to the .venv folder and running activate
 - For linux/macos, you would run ```. .venv/bin/activate```
 - For windows, you would run ```. .venv/bin/Scripts/activate```
+
+# data download
+```dl_data.sh``` has been provided if you'd like to programmatically download the zip file. Run the .sh file using ```. dl_data.sh```
 
 # Pyinstaller
 
